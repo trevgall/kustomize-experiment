@@ -9,3 +9,8 @@ spec:
         paths:
           - pathType: Prefix
             path: /dev-nginx
+            backend:
+              service:
+                name: web-service
+                port:
+                  number: 8080
