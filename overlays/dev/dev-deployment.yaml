@@ -3,4 +3,4 @@ kind: Deployment
 metadata:
   name: web-deployment
 spec:
-  replicas: 3 # Update the replica count to 3
+  replicas: 1 # Update the replica count to 3
