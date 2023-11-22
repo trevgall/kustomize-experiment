@@ -3,15 +3,4 @@ kind: Deployment
 metadata:
   name: web-deployment
 spec:
-  replicas: 10
-  template:
-    spec:
-      containers:
-      - name: nginx
-        resources:
-          limits:
-            cpu: "600" 
-            memory: "256Mi" # Lower memory limit to 256 MiB
-          requests:
-            cpu: "300" 
-            memory: "128Mi"
+  replicas: 6
